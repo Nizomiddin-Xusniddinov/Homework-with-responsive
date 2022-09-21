@@ -1,0 +1,12 @@
+header .navbars .work{
+    color: #FF6464;
+}
+
+@media (max-width : 576px) {
+    .sm-none{
+        display: none;
+    }
+    .sm-block{
+        display: block;
+    }
+}

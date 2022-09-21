@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Universal_codes */
+body {
+    font-family: 'Heebo';
+}
+
+.d-none {
+    display: none;
+}
+
+p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+/* Header_starting */
+header .navbars {
+    padding: 27px 0px 0px;
+}
+
+header .navbars ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+header .navbars ul li a {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+
+    color: #000000;
+}
+
+header .navbars .blog {
+    color: #FF6464;
+}
+
+/* section_starting */
+section .row {
+    text-align: left;
+    justify-content: center;
+}
+
+section .title {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-top: 106px;
+    margin-bottom: 55px;
+}
+section .box{
+    padding-bottom: 30px;
+    margin-top: 32px;
+    border-bottom: 1px solid #E0E0E0;
+    text-align: left;
+}
+section .box .box__title {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+
+section .box .dates {
+    margin: 15px;
+    display: flex;
+    align-items: baseline;
+    justify-content: start;
+}
+section .box .dates span{
+    margin: 0px 20px;
+    height: 21px;
+}
+section .box .dates p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    /* Dark Color */
+
+    color: #21243D;
+}
+
+section .box .dates .dim_p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+
+    /* Light */
+
+    color: #8695A4;
+}
+footer {
+    margin: 134px 100px;
+}
+
+footer .icons {
+
+    text-align: center;
+    font-size: 30px;
+}
+
+footer .icons i {
+    margin: 0px 17px;
+}
